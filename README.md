@@ -2,6 +2,18 @@
 
 This repository contains a project for removing toxic text using a Proximal Policy Optimization (PPO) approach with Hugging Face and PyTorch. The project aims to fine-tune a model to effectively summarize dialogues while detoxifying the text.
 
+## Features
+- Fine-tuning a model using Proximal Policy Optimization (PPO) for text detoxification.
+- Leveraging the Hugging Face library for pre-trained model utilization and customization.
+- Implementation of key techniques for toxic text detection and summarization:
+  - **Reward modeling** for aligning model outputs with detoxification goals.
+  - **Policy optimization** to enhance generative text quality.
+- Demonstrates integration of reinforcement learning for language model tuning.
+- Practical examples for:
+  - Identifying and removing toxic content from text data.
+  - Generating dialogue summaries while ensuring the output is non-toxic.
+- Modular and reusable code structure for experimentation with different datasets and evaluation metrics.
+
 ## Project Structure
 
 - **`PPO_detoxify.ipynb`**: Jupyter Notebook containing the implementation of the PPO algorithm for text detoxification.
@@ -36,4 +48,4 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. 
