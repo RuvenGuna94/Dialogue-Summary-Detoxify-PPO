@@ -8,4 +8,22 @@ This repository contains a project for removing toxic text using a Proximal Poli
 - **`requirements.txt`**: List of dependencies needed to run the project.
 - **Other Files**: Additional scripts or data files can be added as needed.
 
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/RuvenGuna94/Dialogue-Summary-remove-toxic-text-PPO.git
+   cd Dialogue-Summary-remove-toxic-text-PPO
+   ```
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Launch Jupyter Notebook to explore the code:
+   ```bash
+   jupyter notebook PPO_detoxify.ipynb
+   ```
+
 
