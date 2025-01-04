@@ -26,4 +26,14 @@ This repository contains a project for removing toxic text using a Proximal Poli
    jupyter notebook PPO_detoxify.ipynb
    ```
 
+## Usage
 
+Open the notebook and execute the cells step-by-step to train and evaluate the PPO-based detoxification model.
+
+## Contributing
+
+Contributions are welcome! Feel free to fork the repository and submit pull requests.
+
+## License
+
+This project is licensed under the MIT License.
